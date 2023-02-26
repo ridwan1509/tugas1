@@ -72,10 +72,14 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Image.asset(
-                "../assets/img/w.jpg",
-                width: 600,
-                height: 600,
+              Container(
+                color: Color.fromARGB(255, 250, 20, 127),
+                margin: EdgeInsets.all(9),
+                padding: EdgeInsets.all(40),
+                child: Image.asset(
+                  "../assets/img/w.jpg",
+                  width: 300,
+                ),
               ),
               Text("Ari satria darmawan",
                   style: const TextStyle(
